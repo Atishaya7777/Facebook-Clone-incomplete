@@ -1,0 +1,19 @@
+.feed {
+  flex: 5.5;
+}
+
+.feedWrapper {
+  padding: 20px;
+}
+
+.endOfFeed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.feedEndEmoji {
+  margin-left: 5px;
+}

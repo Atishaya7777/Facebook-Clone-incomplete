@@ -1,0 +1,36 @@
+.locationShareItemDark,
+.locationShareItem {
+  cursor: pointer;
+  margin: 0 15px;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationShareItem:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.locationShareItemDark:hover {
+  background-color: rgb(73, 73, 73);
+}
+
+.locationShareItemsIcon {
+  margin-right: 5px;
+  color: grey;
+}
+
+.locationShareItemSpanRight {
+  font-size: 12px;
+}
+
+.locationShareItemSpanLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}

@@ -1,0 +1,169 @@
+.post,
+.postDark {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.31);
+  margin: 30px 0px;
+  background-color: white;
+}
+
+.postDark {
+  background-color: #363537 !important;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0 10px 10px;
+}
+
+.postUserName {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 12px;
+}
+
+.postCenter {
+  margin-bottom: 20px;
+}
+
+.postPhotoArray {
+  list-style-type: none;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.postText {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  border-top: 1px solid grey;
+}
+
+.postBottom > div {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postBottomLeft,
+.postBottomLeftDark {
+  display: flex;
+  align-items: center;
+}
+
+.postBottomLeft,
+.postBottomRight,
+.postBottomMiddle,
+.postBottomLeftDark,
+.postBottomRightDark,
+.postBottomMiddleDark {
+  height: 50px;
+}
+
+.postBottomRight,
+.postBottomMiddle,
+.postBottomRightDark,
+.postBottomMiddleDark {
+  cursor: pointer;
+}
+
+.postBottomMiddle:hover,
+.postBottomRight:hover {
+  background-color: rgb(206, 206, 206);
+  border-radius: 10px;
+}
+
+.postBottomMiddleDark:hover,
+.postBottomRightDark:hover {
+  background-color: rgb(71, 71, 71);
+  border-radius: 10px;
+}
+
+.likeIcon,
+.heartIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-right: 5px;
+  color: grey;
+  transition: all 0.5s;
+}
+
+.likeIcon:hover,
+.heartIcon:hover {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.likeIcon:hover {
+  color: rgb(75, 75, 255) !important;
+}
+
+.heartIcon:hover {
+  color: rgb(255, 75, 75) !important;
+}
+
+.postLikeCounter {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.postCommentText {
+  cursor: pointer;
+  border-bottom: 1px dashed grey;
+  font-size: 15px;
+}
+
+.postCommentIcon {
+  font-size: 15px;
+  color: grey;
+  margin-right: 5px;
+}
+
+.postShare {
+  font-size: 15px;
+  border-bottom: 1px dashed grey;
+  cursor: pointer;
+}
+
+.postShareIcon {
+  font-size: 15px;
+  color: grey;
+}
+
+.postBottomMiddle:hover {
+}

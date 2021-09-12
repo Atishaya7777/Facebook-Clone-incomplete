@@ -1,0 +1,105 @@
+.leftbar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(226, 226, 226);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.leftbarWrapper {
+  padding: 20px;
+}
+
+.leftbarList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leftbarListItem,
+.leftbarListItemDark {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.leftbarListItem:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.leftbarListItemDark:hover {
+  background-color: rgb(73, 73, 73) !important;
+}
+
+.leftbarIcon {
+  margin-right: 15px;
+}
+
+.leftbarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+}
+
+.leftbarButton:active {
+  background-color: grey;
+}
+
+.leftbarHr {
+  margin: 20px 0;
+}
+
+.leftbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.leftbarFriendList.none {
+  display: none;
+}
+
+.leftbarFriend,
+.leftbarFriendDark {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.leftbarFriend:hover {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.leftbarFriendDark:hover {
+  background-color: rgb(73, 73, 73) !important;
+}
+
+.leftbarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}

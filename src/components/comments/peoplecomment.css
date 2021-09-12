@@ -1,0 +1,31 @@
+.peopleComment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.individualComment {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.individualCommentText,
+.individualCommentTextDark {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(206, 206, 206);
+  font-size: 15px;
+}
+
+.individualCommentTextDark {
+  background-color: rgb(71, 71, 71);
+}
+
+.individualCommentImg {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
