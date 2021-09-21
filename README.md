@@ -7,3 +7,5 @@ I tried cloning the previous Facebook versions, which unfortunately did not work
 For frontend, I used React.js. For the backend, I used really small snippet of JavaScript to host the server and give the usual post and get methods.
 
 I put it as public as I wanted the viewers to have fun with it.
+
+Have fun with my failed version of FaceBook *chuckles*
